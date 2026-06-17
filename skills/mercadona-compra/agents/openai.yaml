@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mercadona Compra"
+  short_description: "Crea listas y ayuda a preparar la compra online de Mercadona"
+  default_prompt: "Use $mercadona-compra para crear una lista de compra y prepararla en Mercadona online."
