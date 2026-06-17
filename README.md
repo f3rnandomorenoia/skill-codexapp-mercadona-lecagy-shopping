@@ -9,7 +9,7 @@ Skill para Codex orientada a crear listas de compra locales y ayudar a prepararl
 En Codex App, abre una conversacion nueva y pega:
 
 ```text
-Use $skill-installer to install https://github.com/f3rnandomorenoia/skill-codex-mercadona-lecagy-shopping/tree/main/skills/mercadona-compra
+Use $skill-installer to install https://github.com/f3rnandomorenoia/skill-codexapp-mercadona-lecagy-shopping/tree/main/skills/mercadona-compra
 ```
 
 Reinicia Codex despues de la instalacion para que la skill aparezca como `$mercadona-compra`.
@@ -17,8 +17,8 @@ Reinicia Codex despues de la instalacion para que la skill aparezca como `$merca
 ### Manual
 
 ```bash
-git clone https://github.com/f3rnandomorenoia/skill-codex-mercadona-lecagy-shopping.git
-cd skill-codex-mercadona-lecagy-shopping
+git clone https://github.com/f3rnandomorenoia/skill-codexapp-mercadona-lecagy-shopping.git
+cd skill-codexapp-mercadona-lecagy-shopping
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R skills/mercadona-compra "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
